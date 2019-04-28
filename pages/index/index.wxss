@@ -1,0 +1,47 @@
+.slides {
+    height: 380rpx;
+}
+.slides image {
+    /* 屏幕宽度100%就是750rpx */
+    width: 750rpx;
+    height: 380rpx;
+}
+.grid {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1rpx solid #eee;
+    border-left: 1rpx solid #eee;
+}
+.grid .item {
+    width: 33.33333%;
+    height: 250rpx;
+    display: flex;
+    flex-direction: column;
+    /* 在主轴居中 */
+    justify-content: center;
+    /* 在侧轴居中 */
+    align-items: center;
+    border-right: 1rpx solid #eee;
+    border-bottom: 1rpx solid #eee;
+    /* 把边框算在内容里 */
+    box-sizing: border-box;
+}
+.grid .item image {
+    width: 70rpx;
+    height: 70rpx;
+}
+.grid .item text {
+    font-size: 28rpx;
+    color: #888;
+    margin-top: 20rpx;
+}
+
+.link {
+    display: flex;
+    padding: 20rpx;
+}
+.link image {
+    width: 50%;
+    margin: 20rpx;
+}
